@@ -10,7 +10,15 @@ def read_args(argument):
 
 #for r in sys.argv[1:]:
 #	read_args(r)
+
 arguments = sys.argv[1:]
 len_args = len(arguments)
-for i in range(1, len_args+1):
+
+#for i in range(1, len_args+1):
+#	read_args(sys.argv[i])
+
+i = 1
+while i <= len_args:
 	read_args(sys.argv[i])
+	i += 1
+

@@ -11,8 +11,8 @@ def read_args(argument):
 #for r in sys.argv[1:]:
 #	read_args(r)
 
-arguments = sys.argv[1:]
-len_args = len(arguments)
+#arguments = sys.argv[1:]
+#len_args = len(arguments)
 
 #for i in range(1, len_args+1):
 #	read_args(sys.argv[i])
